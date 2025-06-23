@@ -110,3 +110,20 @@ body {
   border-radius: 12px;
   margin-top: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 в ряд */
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .member img {
+    width: 100px; /* фиксированная ширина аватаров */
+    height: auto;
+  }
+
+  .member {
+    padding: 16px;
+  }
+}
